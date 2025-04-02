@@ -8,7 +8,7 @@ spec:
   interval: 1m0s
   subscriptions:
     - git:
-        branch: master
+        branch: main
         commitSelectionStrategy: NewestFromBranch
         discoveryLimit: 10
         repoURL: https://github.com/nghazali/test-kargo-freights
