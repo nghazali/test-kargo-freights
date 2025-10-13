@@ -16,3 +16,9 @@ kind: ProjectConfig
 metadata:
   name: homa-hotfix
   namespace: homa-hotfix
+spec:
+  webhookReceivers:
+    - name: gh-wh-receiver
+      github:
+        secretRef:
+          name: gh-wh-secret
